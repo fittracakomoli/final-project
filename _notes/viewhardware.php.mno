@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_companyprofile" value="name:id;datatype:int,name:nama;datatype:string,name:hashtag;datatype:string,name:slogan1;datatype:string,name:slogan2;datatype:string,name:sejarah;datatype:blob,name:pendiri;datatype:string,name:tanggalberdiri;datatype:date,name:logo;datatype:blob,name:foto;datatype:blob,name:linkgmaps;datatype:blob,name:email;datatype:string,name:telepon;datatype:string,name:alamat;datatype:blob" />
+	<infoitem key="UD_productsoftware" value="name:id;datatype:int,name:nama;datatype:string,name:deskripsi;datatype:blob,name:harga;datatype:string,name:foto;datatype:blob" />
+	<infoitem key="UD_producthardware" value="name:id;datatype:int,name:nama;datatype:string,name:deskripsi;datatype:blob,name:harga;datatype:string,name:foto;datatype:blob" />
+</info>
