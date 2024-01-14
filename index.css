@@ -1,0 +1,398 @@
+* {
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #013088;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #013088, #013088);
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.logo img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.title a {
+    font-size: 23px;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.menu {
+    padding-right: 100px;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    background: #013088;
+    transition: all 0.2s ease-in-out;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: o;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 2px 0 2px;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 5px 16px 8px 16px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background: #EA047E;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+.bg0 {
+    width: 100%;
+    background: linear-gradient(to left, #1746A2, #3181fa);
+}
+
+.bg1 {
+    width: 100%;
+    padding: 60px 0px;
+    background: linear-gradient(to left, #1746A2, #3181fa);
+}
+
+.gbr1 {
+    padding-top: 60px;
+    padding-left: 60px;
+}
+
+.bg2 {
+    text-align: center;
+    width: 100%;
+    padding: 60px 0px;
+    background: white;
+    border-radius: 50px 50px 0 0;
+}
+
+.bg3 {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to right, #9A1663, #E0144C);
+}
+
+.bg3 h3 {
+    padding-top: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.bg3 p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.bg4 {
+    text-align: center;
+    width: 100%;
+    background: white;
+}
+
+.kolom {
+    float: right;
+    padding-top: 50px;
+    padding-right: 30px;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+
+.kolom .deskripsi {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.kolom p {
+    font-size: 24px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+    width: 100%;
+    line-height: 15px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+}
+
+h4 {
+    padding-bottom: 10px;
+}
+
+a.tbl-tr {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover.tbl-tr {
+    background: #2192FF;
+    transition-duration: 0.5;
+}
+
+a.tbl-bg {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #EA047E;
+    background: #EA047E;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover.tbl-bg {
+    background: #9A1663;
+    border: 1px solid #9A1663;
+    transition-duration: 0.5;
+}
+
+a.tbl-exp {
+    padding: 10px 20px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+a:hover.tbl-exp {
+    background: #2192FF;
+    transition-duration: 0.5;
+}
+
+.box-product {
+    padding: 50px 205px;
+    display: flex;
+    grid-column-gap: 20px;
+    grid-row: 20px;
+}
+
+.image {
+    height: 100px;
+}
+
+.product {
+    border-radius: 5px;
+    border: 1px solid black;
+    color: black;
+    width: 300px;
+    background: white;
+}
+
+.product-column {
+    width: 80%;
+    height: 200px;
+    text-align: left;
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+.product-column a {
+    color: #2192FF;
+}
+
+.product-column a:hover {
+    color: #013088;
+}
+
+.button {
+    float: right;
+    padding: 20px;
+}
+
+a.tbl-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a:hover.tbl-btn {
+    background: #2192FF;
+    transition-duration: 0.5;
+}
+
+.view {
+    background: #DEF5E5;
+    padding: 80px 0px;
+    width: 100%;
+}
+
+.view h3 {
+    padding: 20px;
+}
+
+.view p {
+    width: 40%;
+    padding: 10px;
+}
+
+.view p a {
+    color: #013088;
+}
+
+.box-bottom {
+    padding: 40px;
+    display: flex;
+    grid-column-gap: 20px;
+    grid-row: 20px;
+}
+
+.bottom {
+    color: black;
+    width: 300px;
+    background: white;
+}
+
+.bottom ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom ul li {
+    text-align: left;
+    padding: 0 2px 0 2px;
+}
+
+.bottom ul .top {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom ul li a {
+    color: #3C4048;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 95%;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.term {
+    float: right;
+}
+
+.term ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.term ul li {
+    padding: 5px;
+    font-size: 12px;
+    float: left;
+}
+
+.term ul li a {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.term ul li a:hover {
+    text-decoration: underline;
+}
+
+.socmed {
+    float: left;
+}
+
+.socmed a {
+    padding-right: 5px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: black;
+
+}

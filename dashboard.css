@@ -1,0 +1,176 @@
+* {
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #013088;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #013088, #013088);
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #013088;
+}
+
+.header h2 {
+    color: white;
+    padding: 15px 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.panel {
+    position: fixed;
+    width: 15%;
+    float: left;
+    background: #393E46;
+    padding: 85px 0 336px 0;
+}
+
+.panel a {
+    padding: 10px 30px;
+    display: flex;
+    font-size: 16px;
+    color: white;
+}
+
+.panel a:hover {
+    background: black;
+}
+
+.navigation {
+    width: 82%;
+    padding: 95px 20px 0 0;
+    float: right;
+}
+
+.navigation p {
+    color: grey;
+}
+
+.navigation a {
+    color: grey;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.name-tag {
+    width: 82%;
+    padding: 10px 20px 0 0;
+    float: right;
+}
+
+.name-tag h2 {
+    font-size: 26px;
+}
+
+.box-menu {
+    width: 82%;
+    padding: 20px;
+    float: right;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-column-gap: 2%;
+    grid-row-gap: 28px;
+}
+
+.menu {
+    color: black;
+    width: 350px;
+}
+
+.box-menu a{
+    color: black;
+}
+
+.image-admin {
+    padding: 10px;
+    text-align: center;
+    background: #DD5353;
+}
+
+.desc-admin {
+    background: #B73E3E;
+    padding: 10px;
+}
+
+.image-profile {
+    padding: 10px;
+    text-align: center;
+    background: #54B435;
+}
+
+.desc-profile {
+    background: #379237;
+    padding: 10px;
+}
+
+.image-product {
+    padding: 10px;
+    text-align: center;
+    background: #47B5FF;
+}
+
+.desc-product {
+    background: #2192FF;
+    padding: 10px;
+}
+
+.image-order {
+    padding: 10px;
+    text-align: center;
+    background: #FFDE00;
+}
+
+.desc-order {
+    background: #FFB200;
+    padding: 10px;
+}
+
+.image-news {
+    padding: 10px;
+    text-align: center;
+    background: #FF731D;
+}
+
+.desc-news {
+    background: #C55300;
+    padding: 10px;
+}
+
+.image-feedback {
+    padding: 10px;
+    text-align: center;
+    background: #E80F88;
+}
+
+.desc-feedback {
+    background: #AF0171;
+    padding: 10px;
+}
+
+.blank {
+    height: 280px;
+}

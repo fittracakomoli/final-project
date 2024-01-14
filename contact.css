@@ -1,0 +1,267 @@
+* {
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #013088;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #013088, #013088);
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    padding-left: 100px;
+}
+
+.logo img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.title a {
+    font-size: 23px;
+    float: left;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+.menu {
+    padding-right: 100px;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 60px;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.active {
+    background: #013088;
+    transition: all 0.2s ease-in-out;
+    z-index: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: o;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 2px 0 2px;
+}
+
+nav ul li a {
+    color: white;
+    text-align: center;
+    padding: 5px 16px 8px 16px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background: #EA047E;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+.bg1 {
+    width: 100%;
+    padding: 60px 0px;
+    background: linear-gradient(to left, #1746A2, #3181fa);
+}
+
+.box-bottom {
+    padding: 40px;
+    display: flex;
+    grid-column-gap: 20px;
+    grid-row: 20px;
+}
+
+.bottom {
+    color: black;
+    width: 300px;
+    background: white;
+}
+
+.bottom ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.bottom ul li {
+    text-align: left;
+    padding: 0 2px 0 2px;
+}
+
+.bottom ul .top {
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bottom ul li a {
+    color: #3C4048;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.bottom ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    width: 95%;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+
+.term {
+    float: right;
+}
+
+.term ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.term ul li {
+    padding: 5px;
+    font-size: 12px;
+    float: left;
+}
+
+.term ul li a {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.term ul li a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    width: 500px;
+    padding: 30px;
+}
+
+.box h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.user-box {
+    padding: 10px 0;
+}
+
+.user-box label {
+    color: white;
+    font-size: 14px;
+}
+
+.user-box input {
+    background: transparent;
+    color: white;
+    width: 100%;
+    padding: 5px 0;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.user-box textarea {
+    color: white;
+    background: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+.user-box input:focus {
+    transition-duration: 0.1s;
+    border-bottom: 1px solid #FD841F;
+}
+
+.user-box textarea:focus {
+    transition-duration: 0.1s;
+    border-bottom: 1px solid #FD841F;
+}
+
+.button {
+    float: left;
+    padding: 10px 0;
+}
+
+.tbl-login {
+	font-size: 15px;
+    border: 2px solid white;
+    font-weight: bold;
+    border-radius: 20px;
+	color: white;
+    padding: 8px 16px;
+    background: transparent;
+    transition-duration: 0.5s;
+}
+
+.tbl-login:hover {
+    background: #2146C7;
+    transition-duration: 0.5s;
+}
+
+.socmed {
+    float: left;
+}
+
+.socmed a {
+    padding-right: 5px;
+}
+
+.fa-brands {
+    font-size: 20px;
+    color: black;
+
+}

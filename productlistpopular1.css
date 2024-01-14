@@ -1,0 +1,180 @@
+* {
+    text-decoration: none;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #FFFFFF;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: #013088;
+}
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #013088, #013088);
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: #013088;
+}
+
+.header h2 {
+    color: white;
+    padding: 15px 30px;
+}
+
+.container {
+    width: 100%;
+}
+
+.panel {
+    position: fixed;
+    width: 15%;
+    float: left;
+    background: #393E46;
+    padding: 85px 0 336px 0;
+}
+
+.panel a {
+    padding: 10px 30px;
+    display: flex;
+    font-size: 16px;
+    color: white;
+}
+
+.panel a:hover {
+    background: black;
+}
+
+.box {
+    width: 100%;
+    float: right;
+}
+
+.navigation {
+    width: 82%;
+    padding: 95px 20px 0 0;
+    float: right;
+}
+
+.navigation p {
+    color: grey;
+}
+
+.navigation a {
+    color: grey;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.name-tag {
+    width: 82%;
+    padding: 10px 20px 0 0;
+    float: right;
+}
+
+.name-tag h2 {
+    font-size: 26px;
+}
+
+.insert-btn {
+    width: 82%;
+    padding: 20px 20px 10px 0;
+    float: right;
+}
+
+.insert-btn a {
+    color: white;
+    padding: 10px;
+    background: #5DA7DB;
+    border-radius: 10px;
+}
+
+.feed {
+    width: 100%;
+    padding: 15px 0;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19%;
+    grid-column-gap: 2%;
+    grid-row-gap: 28px;
+}
+
+.product {
+    margin-left: 225px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    width: 250px;
+}
+
+.product img {
+    width: 250px;
+    height: 250px;
+}
+
+.product h4 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product h5 {
+    width: 100%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+
+.product p {
+    height: 300px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.button {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 10px;
+    background: #013088;
+}
+
+.button1 {
+    text-align: center;
+    padding: 10px;
+    background: red;
+}
+
+.button a {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.button1 a {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.blank {
+    height: 280px;
+}
